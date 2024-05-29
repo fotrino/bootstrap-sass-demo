@@ -6953,4 +6953,12 @@ progress {
   }
 }
 
+@font-face {
+  font-family: "sunny";
+  src: url("../assets/fonts/sunny-spells-basic.ttf");
+}
+.font-sunny {
+  font-family: "sunny";
+}
+
 /*# sourceMappingURL=custom.css.map */
