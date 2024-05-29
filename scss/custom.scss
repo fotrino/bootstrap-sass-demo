@@ -29,3 +29,8 @@ $secondary: #63b5e2;
 @import "../node_modules/bootstrap/scss/utilities/api";
 
 // 8. Add additional custom code here
+.ratio-21x9 {
+    @include media-breakpoint-down(md) {
+        --bs-aspect-ratio: 100%;
+    }
+}

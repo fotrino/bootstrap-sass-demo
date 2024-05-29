@@ -6947,5 +6947,10 @@ progress {
     display: none !important;
   }
 }
+@media (max-width: 767.98px) {
+  .ratio-21x9 {
+    --bs-aspect-ratio: 100%;
+  }
+}
 
 /*# sourceMappingURL=custom.css.map */
